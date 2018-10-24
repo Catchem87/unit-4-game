@@ -1,0 +1,9 @@
+#header {
+    font-family: 'Permanent Marker', cursive;
+}
+#crystal-image {
+    width: 60px;
+    height: 70px;
+    padding: 5px;
+    border: solid 1px black;
+}
