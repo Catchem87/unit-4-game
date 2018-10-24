@@ -1,9 +1,30 @@
 #header {
     font-family: 'Permanent Marker', cursive;
 }
-#crystal-image {
+#crystal-blue {
     width: 60px;
     height: 70px;
     padding: 5px;
     border: solid 1px black;
+}
+#crystal-pink {
+    width: 60px;
+    height: 70px;
+    padding: 5px;
+    border: solid 1px black;
+}
+#crystal-green {
+    width: 60px;
+    height: 70px;
+    padding: 5px;
+    border: solid 1px black;
+}
+#crystal-yellow {
+    width: 60px;
+    height: 70px;
+    padding: 5px;
+    border: solid 1px black;
+}
+#randNum {
+    font-family: "Permanent Marker", cursive;
 }
