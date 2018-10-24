@@ -1,6 +1,18 @@
 #header {
     font-family: 'Permanent Marker', cursive;
 }
+.blueCrystal {
+    float: left;
+}
+.pinkCrystal {
+    float: left;
+}
+.greenCrystal {
+    float: left;
+}
+.yellowCrystal {
+    float: left;
+}
 #crystal-blue {
     width: 60px;
     height: 70px;
