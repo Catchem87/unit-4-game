@@ -17,6 +17,24 @@ $(document).ready(function () {
     var losses = 0;
     var wins = 0;
 
+    var reset = function() {
+        randomNum = Math.floor(Math.random() * 120) + 19
+        console.log(randomNum)
+        $("#randNum").html(randomNum)
+       
+        blueNum = Math.floor(Math.random() * 12) + 1
+        console.log(blueNum)
+        pinkNum = Math.floor(Math.random() * 12) + 1
+        console.log(pinkNum)
+        greenNum = Math.floor(Math.random() * 12) + 1
+        console.log(greenNum)
+        yellowNum = Math.floor(Math.random() * 12) + 1
+        console.log(yellowNum)
+    
+        playerScore = 0;
+        $("#score").html(playerScore)
+    }
+
     $("#score").html(playerScore)
     $("#wins").html(wins)
     $("#losses").html(losses)
@@ -26,12 +44,15 @@ $(document).ready(function () {
         playerScore += parseInt(blueNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
-            console.log("WINNER")
             $("#wins").html(++wins)
+            console.log("Game Won")
+            reset()
+
         }
         if (playerScore > randomNum) {
-            console.log("LOSER")
             $("#losses").html(++losses)
+            console.log("Game Lost")
+            reset()
         }
     })
 
@@ -39,12 +60,14 @@ $(document).ready(function () {
         playerScore += parseInt(pinkNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
-            alert("Game Won")
             $("#wins").html(++wins)
+            console.log("Game Won")
+            reset()
         }
         if (playerScore > randomNum) {
-            alert("Game Lost")
             $("#losses").html(++losses)
+            console.log("Game Lost")
+            reset()
         }
     })
 
@@ -52,12 +75,15 @@ $(document).ready(function () {
         playerScore += parseInt(greenNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
-            alert("Game Won")
             $("#wins").html(++wins)
+            console.log("Game Won")
+            reset()
+
         }
         if (playerScore > randomNum) {
-            alert("Game Lost")
             $("#losses").html(++losses)
+            console.log("Game Lost")
+            reset()
         }
     })
 
@@ -65,12 +91,14 @@ $(document).ready(function () {
         playerScore += parseInt(yellowNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
-            alert("Game Won")
             $("#wins").html(++wins)
+            console.log("Game Won")
+            reset()
         }
         if (playerScore > randomNum) {
-            alert("Game Lost")
             $("#losses").html(++losses)
+            console.log("Game Lost")
+            reset()
         }
     })
 

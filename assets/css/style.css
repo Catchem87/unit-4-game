@@ -24,32 +24,43 @@
     margin-left: 5px;
 }
 #gameArea {
-    margin-top: 5px;
-    margin-right: 5px;
+    margin-top: 7px;
+    margin-right: 15px;
 }
 .winLossTracker {
-    float: left;
+    float: right;
+    padding-right: 10px;
+}
+#wins {
+    font-family: "Permanent Marker", cursive;
+}
+#losses {
+    font-family: "Permanent Marker", cursive;
 }
 .card {
     margin-right: 0px;
 }
 .blueCrystal {
-    float: right;
+    float: left;
+    margin-top: 35px;
 }
 .pinkCrystal {
-    float: right;
+    float: left;
+    margin-top: 35px;
 }
 .greenCrystal {
-    float: right;
+    float: left;
+    margin-top: 35px;
 }
 .yellowCrystal {
-    float: right;
+    float: left;
+    margin-top: 35px;
 }
 #crystal-blue {
     width: 80px;
     height: 90px;
     padding: 5px;
-    margin: 3px;
+    margin: 3px 7px 3px 3px;
 }
 #crystal-pink {
     width: 80px;
@@ -61,11 +72,11 @@
     width: 80px;
     height: 90px;
     padding: 5px;
-    margin: 3px;
+    margin: 3px 3px 3px 10px;
 }
 #crystal-yellow {
-    width: 80px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     padding: 5px;
     margin: 3px;
 }
