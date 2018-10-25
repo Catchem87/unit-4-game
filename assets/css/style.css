@@ -1,42 +1,77 @@
+#main-header {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    font-size: 36pt;
+    color: aliceblue;
+    padding-top: 10px;
+    background-color: blue;
+}
 #header {
     font-family: 'Permanent Marker', cursive;
 }
-.blueCrystal {
+#instructionsContainer {
+    font-size: 16pt;
+    font-family: "Shadows Into Light", cursive;
+}
+#instructions {
+    padding-left: 1.25rem;
+    padding-top: 1.25rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20pt;
+}
+#howToPlay {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#gameArea {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.winLossTracker {
     float: left;
+}
+.card {
+    margin-right: 0px;
+}
+.blueCrystal {
+    float: right;
 }
 .pinkCrystal {
-    float: left;
+    float: right;
 }
 .greenCrystal {
-    float: left;
+    float: right;
 }
 .yellowCrystal {
-    float: left;
+    float: right;
 }
 #crystal-blue {
-    width: 60px;
-    height: 70px;
+    width: 80px;
+    height: 90px;
     padding: 5px;
-    border: solid 1px black;
+    margin: 3px;
 }
 #crystal-pink {
-    width: 60px;
-    height: 70px;
+    width: 80px;
+    height: 90px;
     padding: 5px;
-    border: solid 1px black;
+    margin: 3px;
 }
 #crystal-green {
-    width: 60px;
-    height: 70px;
+    width: 80px;
+    height: 90px;
     padding: 5px;
-    border: solid 1px black;
+    margin: 3px;
 }
 #crystal-yellow {
-    width: 60px;
-    height: 70px;
+    width: 80px;
+    height: 90px;
     padding: 5px;
-    border: solid 1px black;
+    margin: 3px;
 }
 #randNum {
+    font-family: "Permanent Marker", cursive;
+}
+#score {
     font-family: "Permanent Marker", cursive;
 }
