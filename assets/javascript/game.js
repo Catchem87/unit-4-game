@@ -33,6 +33,7 @@ $(document).ready(function () {
     
         playerScore = 0;
         $("#score").html(playerScore)
+        $("#result").html("")
     }
 
     $("#score").html(playerScore)
@@ -45,13 +46,13 @@ $(document).ready(function () {
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
             $("#wins").html(++wins)
-            console.log("Game Won")
+            $("#result").html("WINNER")
             reset()
 
         }
         if (playerScore > randomNum) {
             $("#losses").html(++losses)
-            console.log("Game Lost")
+            $("#result").html("LOSER")
             reset()
         }
     })
@@ -61,12 +62,12 @@ $(document).ready(function () {
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
             $("#wins").html(++wins)
-            console.log("Game Won")
+            $("#result").html("WINNER")
             reset()
         }
         if (playerScore > randomNum) {
             $("#losses").html(++losses)
-            console.log("Game Lost")
+            $("#result").html("LOSER")
             reset()
         }
     })
@@ -76,13 +77,13 @@ $(document).ready(function () {
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
             $("#wins").html(++wins)
-            console.log("Game Won")
+            $("#result").html("WINNER")
             reset()
 
         }
         if (playerScore > randomNum) {
             $("#losses").html(++losses)
-            console.log("Game Lost")
+            $("#result").html("LOSER")
             reset()
         }
     })
@@ -92,12 +93,12 @@ $(document).ready(function () {
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
             $("#wins").html(++wins)
-            console.log("Game Won")
+            $("#result").html("WINNER")
             reset()
         }
         if (playerScore > randomNum) {
             $("#losses").html(++losses)
-            console.log("Game Lost")
+            $("#result").html("LOSER")
             reset()
         }
     })
