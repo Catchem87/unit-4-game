@@ -45,14 +45,14 @@ $(document).ready(function () {
         playerScore += parseInt(blueNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
+            console.log("WINNER")
             $("#wins").html(++wins)
-            $("#result").html("WINNER")
             reset()
 
         }
         if (playerScore > randomNum) {
+            console.log("LOSER")
             $("#losses").html(++losses)
-            $("#result").html("LOSER")
             reset()
         }
     })
@@ -61,13 +61,13 @@ $(document).ready(function () {
         playerScore += parseInt(pinkNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
+            console.log("WINNER")
             $("#wins").html(++wins)
-            $("#result").html("WINNER")
             reset()
         }
         if (playerScore > randomNum) {
+            console.log("LOSER")
             $("#losses").html(++losses)
-            $("#result").html("LOSER")
             reset()
         }
     })
@@ -76,14 +76,14 @@ $(document).ready(function () {
         playerScore += parseInt(greenNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
+           console.log("WINNER")
             $("#wins").html(++wins)
-            $("#result").html("WINNER")
             reset()
 
         }
         if (playerScore > randomNum) {
+            console.log("LOSER")
             $("#losses").html(++losses)
-            $("#result").html("LOSER")
             reset()
         }
     })
@@ -93,12 +93,10 @@ $(document).ready(function () {
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
             $("#wins").html(++wins)
-            $("#result").html("WINNER")
             reset()
         }
         if (playerScore > randomNum) {
             $("#losses").html(++losses)
-            $("#result").html("LOSER")
             reset()
         }
     })
