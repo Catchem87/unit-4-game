@@ -45,15 +45,15 @@ $(document).ready(function () {
         playerScore += parseInt(blueNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
-            console.log("WINNER")
             $("#wins").html(++wins)
-            reset()
+            $("#result").html("WINNER")
+            setTimeout(reset, 2000)
 
         }
         if (playerScore > randomNum) {
-            console.log("LOSER")
             $("#losses").html(++losses)
-            reset()
+            $("#result").html("LOSER")
+            setTimeout(reset, 2000)
         }
     })
 
@@ -61,14 +61,14 @@ $(document).ready(function () {
         playerScore += parseInt(pinkNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
-            console.log("WINNER")
             $("#wins").html(++wins)
-            reset()
+            $("#result").html("WINNER")
+            setTimeout(reset, 2000)
         }
         if (playerScore > randomNum) {
-            console.log("LOSER")
             $("#losses").html(++losses)
-            reset()
+            $("#result").html("LOSER")
+            setTimeout(reset, 2000)
         }
     })
 
@@ -76,15 +76,15 @@ $(document).ready(function () {
         playerScore += parseInt(greenNum)
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
-           console.log("WINNER")
             $("#wins").html(++wins)
-            reset()
+            $("#result").html("WINNER")
+            setTimeout(reset, 2000)
 
         }
         if (playerScore > randomNum) {
-            console.log("LOSER")
             $("#losses").html(++losses)
-            reset()
+            $("#result").html("LOSER")
+            setTimeout(reset, 2000)
         }
     })
 
@@ -93,11 +93,13 @@ $(document).ready(function () {
         $("#score").html(playerScore)
         if (playerScore === randomNum) {
             $("#wins").html(++wins)
-            reset()
+            $("#result").html("WINNER")
+            setTimeout(reset, 2000)
         }
         if (playerScore > randomNum) {
             $("#losses").html(++losses)
-            reset()
+            $("#result").html("LOSER")
+            setTimeout(reset, 2000)
         }
     })
 

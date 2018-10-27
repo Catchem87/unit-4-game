@@ -88,4 +88,10 @@
 }
 #result {
     font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50pt;
+}
+.resultAnnouncement {
+    padding-top: 40px;
 }
